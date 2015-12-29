@@ -1,0 +1,2018 @@
+{% load bootstrap3 %}
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Maxiphone</title>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{% static "css/mainpage.css" %}" rel="stylesheet">
+    <link href="{% static "css/animate.css" %}"  rel="stylesheet">
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha256-3dkvEK0WLHRJ7/Csr0BZjAWxERc5WH7bdeUya2aXxdU= sha512-+L4yy6FRcDGbXJ9mPG8MT/3UCDzwR9gPeyFNMCtInsol++5m3bk2bXWKdZjvybmohrAsn3Ua5x8gfLnbE1YkOg==" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootlint/0.14.2/bootlint.min.js" integrity="sha256-Fkjw8oamqofxU59inx0OSzLD4C+z+XgUFeUwECc2soQ= sha512-Tp3Zya7Pg7twy8VjsbO4B3Kp+WXoq6z5cDTa2IzCJI49s+vyHJo1msq1LjBFgkO6bMPMtud+EQJ6yg/6rBPt4g==" crossorigin="anonymous"></script>
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+    <script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>
+
+<body id="page-top" class="index">
+    <!-- Preloader -->
+    <div id="page-preloader"><span class="spinner"></span></div>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top"><img src={% static "img/logo-navbar.png" %} ></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right ">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#service">Преимущества</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#instruction">Подключение</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Тарифы</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#help">Помощь</a>
+                    </li>
+                    <!-- <li>
+                        <a class="page-scroll" href="#akcia">Акция</a>
+                    </li> -->
+                    <li>
+                        <a href="https://issa.beltelecom.by/main.html">Кабинет пользователя</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row animated zoomIn slow">
+                <div class="intro-text">
+                    <div class="intro-heading white"><img src={% static "img/logo.png" %} alt=Максифон></div>
+                    <div class="intro-lead-in white">максимально просто, максимально выгодно</div>
+                </div>
+            </div>
+            <div class="row clouds">
+                <div class="col-md-4 sun animated slow fadeInLeftBig"><img src={% static "img/sun.png" %}></div>
+                <div class="col-md-4 cloud animated slow fadeInRightBig"><img src={% static "img/cloud.png" %}></div>
+                <div class="col-md-4 cloud2 animated fadeInRightBig"><img src={% static "img/cloud2.png" %}></div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+
+                </div>
+                <div class="col-md-6">
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-md-6">
+                    <div id="carousel-example-generic" class="carousel slide animated zoomIn slow" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src={% static "img/slider/2.png" %} alt="...">
+                                <div class="carousel-caption">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="row">
+                        <div class="col-md-9 animated slideInUp slow">
+                            <h3 class="large white text-left bord2">Удачное решение для вашего общения</h3>
+                            <p class="large white text-left ">Услуга МАКСИФОН от <a href="http://beltelecom.by"><em>БЕЛТЕЛЕКОМ</em></a> позволит Вам совершать звонки через интернет по действительно выгодным тарифам независимо от времени суток и местоположения.</p>
+                        </div>
+
+                        <div class="col-md-9 fadeInUp wow" data-wow-delay="2s">
+                            <div>
+                                <a href="#service" class="page-scroll btn btn-xl mt btn-block pulse wow" data-wow-delay="3s" data-wow-iteration="2">
+                                    <!-- <i class="fa fa-angle-double-down fa-3x pull-left"></i> -->Узнайте больше<br>о преимуществах</a>
+                            </div>
+                        </div>
+                        <div class="col-md-9 fadeInUp wow" data-wow-delay="4.2s">
+                            <p class="text-left call-desc">Для получения более подробной информации об услуге по телефону обратитесь в наш call-центр <!--(справка бесплатно)-->.</p>
+                        </div>
+                        <div class="col-md-3 fadeInUp wow" data-wow-delay="4.5s">
+                            <i class="fa fa-phone fa-4x f fa-inverse fa-border"><span class="call-number">130<span></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Services Section -->
+    <section id="service">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Преимущества</h2>
+                    <h3 class="section-subheading text-muted">оцените все преимущества по достоинству</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div id="prbox" class=" prbox col-md-3 grow">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary yellow"></i>
+                        <i class="fa fa-phone fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading bord3">Реальный телефонный номер</h4>
+                    <p class="text-muted">Вы получите реальный телефонный номер из номерной емкости телефонной сети <a href="http://beltelecom.by"><em>БЕЛТЕЛЕКОМ</em></a> в формате <br> +375 24 9хх хх хх</p>
+                </div>
+                <div class="col-md-3 grow">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary green"></i>
+                        <i class="fa fa-mobile-phone fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading bord3">Полный спектр услуг<br>связи</h4>
+                    <p class="text-muted">Осуществляйте голосовые вызовы</br> с мобильного или ПК,</br> совершайте видеозвонки, </br> обмениваетесь файлами</p>
+                </div>
+                <div class="col-md-3 grow">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary blue"></i>
+                        <i class="fa fa-usd fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading bord3">Экономия Ваших финансовых средств</h4>
+                    <p class="text-muted">Вы будете экономить с выгодными тарифами в роуминге и при общении с абонентами других сетей</p>
+                </div>
+                <div class="col-md-3 grow">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary orange"></i>
+                        <i class="fa fa-refresh fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading bord3">Анлим внутри<br>сети МАКСИФОН</h4>
+                    <p class="text-muted">При общении внутри
+                    <br> сети Максифон с другими абонентами
+                    <br> плата не взимается</p>
+                </div>
+            </div>
+            <div class="row mttt">
+                <div class="col-md-7">
+                   <div class="col-md-11 well well-border">
+                       <h3 class="large white blue push-right">Позвольте себе больше</h3>
+                       <p class="text-muted blue">Обеспечьте себе свободу общения, не задумываясь о стоимости звонков с мобильных телефонов на фиксированную сеть.</p>
+                   </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="row">
+                        <div class="col-md-9">
+                            <a href="#instruction" class="page-scroll btn btn-xl btn-block">
+                                <!-- <i class="fa fa-angle-double-down fa-3x pull-left "></i> -->Как подключить<br>МАКСИФОН</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Instruction Section -->
+    <section id="instruction">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading white">Подключение</h2>
+                    <h3 class="section-subheading text-muted white">проще, чем вы думали</h3>
+                </div>
+            </div>
+            <div class="row clouds">
+                <div class="col-md-4 col-sm-2 cloud"><img src={% static "img/cloud.png" %} class="fadeInLeft wow slow"></div>
+                <div class="col-md-3 col-md-3 cloud"><img src={% static "img/cloud2.png" %} class="slideInLeft wow medium"></div>
+                <div class="col-md-4 col-md-2 cloud2"><img src={% static "img/cloud.png" %} class="fadeInRight wow"></div>
+                <div class="col-md-2 col-md-3 cloud2"><img src={% static "img/cloud2.png" %} class="fadeInRight wow"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image">
+                                <img  src={% static "img/doc.png" %} class="img-circle img-responsive" alt="">
+                            </div>
+                            <div class="timeline-panel fadeInLeft wow" data-wow-delay="1s">
+                                <div class="timeline-heading">
+                                    <h4 class="white text-left">Шаг 1</h4>
+                                    <h4 class="subheading white bord2 text-left">Договор</h4>
+                                </div>
+                                <div class="timeline-body text-left">
+                                    <p class="text-muted white">Заключите договор в одном из сервисных</br><a href="http://beltelecom.by/subscribers/points" data-toggle="tooltip" data-placement="top" title="Найдите ближайший к вам сервисный центр на карте" target="_blank">центров <em>БЕЛТЕЛЕКОМ</em></a>. <!--</br>Если Вы уже являетесь пользователем услуг <a href="http://byfly.by">byfly</a>, <a href="http://zala.by">ZALA</a> или <a href="http://beltelecom.by/uslugi-na-baze-seti-ims">IMS,</a> то зарегистрироваться можно через <a href="https://issa.beltelecom.by/main.html" data-toggle="tooltip" data-placement="bottom">кабинет пользователя</a>.</p>-->
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img src={% static "img/android.png" %} class="img-circle img-responsive" alt="">
+                            </div>
+                            <div class="timeline-panel fadeInRight wow" data-wow-delay="2.5s">
+                                <div class="timeline-heading">
+                                    <h4 class="white">Шаг 2</h4>
+                                    <h4 class="subheading white bord2">Приложение</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted white">Скачайте и установите приложение для своего <a href="https://play.google.com/store/apps/details?id=by.beltelecom.maxiphone&hl=ru" data-toggle="tooltip" data-placement="bottom" title="Скачайте приложение для вашего Android-смартфона из Google play" target="_blank">Android-смартфона</a> или <a href="http://beltelecom.by/%D0%9C%D0%B0xiphone-software-applications" data-toggle="tooltip" data-placement="bottom" title="Скачайте приложение для вашего ПК с нашего сервера" target="_blank">компьютера</a>.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted" data-wow-iteration="2">
+                            <div class="timeline-image white">
+                                <h4>Готово!<br>
+                                    Вы<br>
+                                    на связи</h4>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row mttt">
+                <div class="col-md-7">
+                    <div class="col-md-11">
+                        <h3 class="large white bord2">Требования  к оборудованию</h3>
+                        <p class="text-muted white"><a href="http://beltelecom.by"><em>БЕЛТЕЛЕКОМ</em></a> рекомендует использовать для работы с услугой Максифон то оборудование, которое прошло тестирование.</p>
+                        <p class="text-muted white">Для корректной установки и работы приложения Максифон на вашем смартфоне должна быть установлена ОС Android 2.2 или выше.</p>
+                        <p class="text-muted white">Более подробную информацию о требуемых параметрах оборудования смотрите в разделе <a class="page-scroll" href="#help">ПОМОЩЬ</a>.</p>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="row">
+                        <div class="col-md-9">
+                            <a href="#portfolio" class="page-scroll btn btn-xl mt btn-block">
+                        <!-- <i class="fa fa-angle-double-down fa-3x pull-left"></i> -->Подберите<br>тарифный план</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Portfolio Grid Section -->
+    <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Тарифы</h2>
+                    <h3 class="section-subheading text-muted">подберите подходящий именно вам</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-6 portfolio-item fadeInDown wow" data-wow-delay="2s">
+                    <div class="portfolio-caption portfolio-caption-1">
+                         <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal"> <h4>Тарифный план "Свободный"</h4></a>
+                        <p>для юридических лиц</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 portfolio-item fadeInDown wow" data-wow-delay="2s">
+                    <div class="portfolio-caption portfolio-caption-2">
+                         <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal"><h4>Тарифный план "Свободный"</h4></a>
+                        <p>для физических лиц</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 portfolio-item fadeInDown wow" data-wow-delay="1s">
+                    <div class="portfolio-caption portfolio-caption-3 slideInTop wow" data-wow-delay="1s">
+                        <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal"><h4>Тарифный план "Компаньон"</h4> </a>
+                        <p>для юридических лиц</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 portfolio-item fadeInDown wow" data-wow-delay="1s">
+                     <div class="portfolio-caption portfolio-caption-4">
+                         <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal"><h4>Тарифный план "Выгодный"</h4></a>
+                        <p>для физических лиц</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 portfolio-item fadeInDown wow">
+                     <div class="portfolio-caption portfolio-caption-2">
+                         <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal"><h4>Тарифный план "Компаньон плюс"</h4></a>
+                        <p>для юридических лиц</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Help Section -->
+    <section id="help" class="help">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading white">Помощь</h2>
+                    <h3 class="section-subheading text-muted white">появился вопрос - найдется ответ</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-12 portfolio-item fadeInLeft wow" data-wow-delay="1s">
+                    <a href="#helpModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-comment-o fa-4x blue"></i>
+                            </div>
+                        </div>
+                        <img src={% static "img/portfolio/laptop.png" %} class="img-responsive img-thumbnail" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <p class="text-muted white text-center">Памятка пользователя ПК</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12 portfolio-item fadeInLeftBig wow">
+                    <a href="#helpModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-comment-o fa-4x blue"></i>
+                            </div>
+                        </div>
+                        <img src={% static "img/portfolio/andr2.png" %} class="img-responsive img-thumbnail" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <p class="text-center">Памятка пользователя смартфона</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12 portfolio-item fadeInRightBig wow" data-wow-delay="2s">
+                    <a href="#helpModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-comment-o fa-4x blue"></i>
+                            </div>
+                        </div>
+                        <img src={% static "img/portfolio/por.png" %} class="img-responsive img-thumbnail" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <p class="text-center">Порядок оказания услуги</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12 portfolio-item fadeInRightBig wow" data-wow-delay="2.5s">
+                    <a href="#helpModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-comment-o fa-4x blue"></i>
+                            </div>
+                        </div>
+                        <img src={% static "img/portfolio/faq.png" %} class="img-responsive img-thumbnail" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <p class="text-center">FAQ</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients Aside -->
+    <aside id="akcia" class="clients">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 col-md-offset-3 col-sm-2 col-sm-offset-3">
+                    <a href="http://beltelecom.by">
+                        <img src={% static "img/logos/btk.png" %} class="img-responsive img-centered animated" alt="">
+                    </a>
+                </div>
+                <div class="col-md-2 col-sm-2">
+                    <a href="http://byfly.by">
+                        <img src={% static "img/logos/byfly.png" %} class="img-responsive img-centered animated" alt="">
+                    </a>
+                </div>
+                <div class="col-md-2 col-sm-2">
+                    <a href="http://zala.by">
+                        <img src={% static "img/logos/zala.png" %} class="img-responsive img-centered animated" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright white"> © <a href="http://beltelecom.by" class="copyright white">Beltelecom</a> 2015</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="https://twitter.com/BeltelecomBy"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li><a href="https://vk.com/bybeltelecom"><i class="fa fa-vk"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Portfolio Modals -->
+
+    <!-- Tarif Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Тариф "Свободный" </h2>
+                            <p class="item-intro text-muted">без абонентской платы</p>
+                            <p class="item-intro text-muted">для юридических лиц <br>на услуги телефонии по IP-протоколу Максифон</p>
+                            <p>
+                               <table Class="table-hover table-striped" border="1" cellpadding="0" cellspacing="0" width="100%">
+                                <tbody>
+                                        <tr class="zebra">
+                                            <td rowspan="2" valign="top">
+                                                <br>
+                                                Номер п/п
+                                            </td>
+                                            <td rowspan="2">
+                                                <p align="center">
+                                                    Наименование услуг
+                                                </p>
+                                            </td>
+                                            <td colspan="2">
+                                                <p align="center">
+                                                    <strong>Тариф с учетом налога на добавленную стоимость, рублей</strong>
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr class="">
+                                            <td>
+                                                <p align="center">
+                                                    для соединений, установленных с территории Республики Беларусь
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p align="center">
+                                                    для соединений, установленных&nbsp; из-за пределов территории Республики Беларусь
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr class="zebra zebrahover2">
+                                            <td valign="top">&nbsp;
+
+                                            </td>
+                                            <td colspan="3">
+                                                <p align="center">
+                                                    <strong>Тарифный план "Свободный"</strong>
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr class="">
+                                            <td valign="top">
+                                                <p align="center">
+                                                    1.
+                                                </p>
+                                            </td>
+                                            <td valign="top">
+                                                <p>
+                                                    <strong>Исходящее</strong> соединение для передачи голосового сообщения, за каждую полную и неполную минуту при выходе:
+                                                </p>
+                                            </td>
+                                            <td colspan="2" valign="top">&nbsp;
+
+                                            </td>
+                                        </tr>
+                                        <tr class="zebra">
+                                            <td valign="top">
+                                                <p align="center">
+                                                    1.1.
+                                                </p>
+                                            </td>
+                                            <td valign="top">
+                                                <p>
+                                                    &nbsp;на абонентов сети электросвязи общего &nbsp;&nbsp;&nbsp;&nbsp;пользования, в том числе абонентов Максифон
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p align="center">
+                                                    80
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p align="center">
+                                                    3 450
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr class="">
+                                            <td valign="top">
+                                                <p align="center">
+                                                    1.2.
+                                                </p>
+                                            </td>
+                                            <td valign="top">
+                                                <p>
+                                                    на абонентов операторов сотовой подвижной электросвязи
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p align="center">
+                                                    300
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p align="center">
+                                                    3 450
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr class="zebra">
+                                            <td valign="top">
+                                                <p align="center">
+                                                    2.
+                                                </p>
+                                            </td>
+                                            <td valign="top">
+                                                <p>
+                                                    <strong>Входящее </strong>соединение для передачи голосового сообщения, за каждую полную или неполную минуту
+                                                </p>
+                                            </td>
+                                            <td>&nbsp;
+
+                                            </td>
+                                            <td>
+                                                <p align="center">
+                                                    700
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr class="">
+                                            <td valign="top">
+                                                <p align="center">
+                                                    3.
+                                                </p>
+                                            </td>
+                                            <td valign="top">
+                                                <p>
+                                                    Плата за сохранение номера, рублей в месяц
+                                                </p>
+                                            </td>
+                                            <td colspan="2" valign="top">
+                                                <p align="center">
+                                                    9 000
+                                                </p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table> <!-- Конец макета таблицы Тарифа свободный  для юридических лиц-->
+                            </p>
+                            <p class="black rast">
+                                1.  В соответствии с действующим законодательством тарифы установлены  без учета налога на добавленную стоимость. Налог на добавленную стоимость взимается в соответствии с действующим законодательством.<br>
+                                2. Плата за исходящее соединение абонентов сети электросвязи общего пользования с абонентами Максифон  взимается в соответствии с действующими <a href="http://beltelecom.by/business/telephony/installation-and-use">тарифами на услуги по предоставлению междугородного телефонного соединения</a>.<br>
+                                3. Плата за выбор элитного номера осуществляется <a href="http://beltelecom.by/business/telephony/installation-and-use">в соответствии с действующими тарифами на услуги электросвязи общего пользования.</a><br>
+                                4. Плата за исходящие международные голосовые сообщения взимается в соответствии с действующими тарифами на услуги по предоставлению международных телефонных соединений абонентам сети электросвязи общего пользования. Дополнительная плата за местное телефонное соединение не взимается.<br>
+                                5. При замене номера по просьбе абонента плата взимается в соответствии с действующими тарифами на услуги для абонентов сети электросвязи общего пользования по замене номера по просьбе абонента в пределах одной АТС.<br>
+                                6. Плата за переоформление договора осуществляется в соответствии с действующими тарифами на услуги электросвязи общего пользования за переоформление абонемента.<br>
+                                7. Плата за соединения при передаче файлов и текстовых сообщений между абонентами  Максифон не взимается.<br>
+                                8. Плата за видеосоединение взимается в соответствии с <a href="http://beltelecom.by/business/telephony/installation-and-use">тарифами на соединение по передаче голосовых сообщений</a>.<br>
+                                9. Плата за выход на справочную службу (109) взимается в соответствии с действующими тарифами на справочно-информационные услуги.<br>
+                                10. Плата за выход на справочные службы (123, 153) не взимается.<br>
+                            </p>
+                            <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-times"></i> Закрыть</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tarif Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Тариф "Свободный" </h2>
+                            <p class="item-intro text-muted">для физических лиц (кроме индивидуальных предпринимателей)<br>на услуги телефонии по IP-протоколу Максифон</p>
+                            <!-- <img class="img-responsive img-centered" src="img/portfolio/startup-framework-preview.png" alt=""> -->
+                            <p> <!-- Тариф "Свободный"   для  физических  лиц -->
+                               <table Class="table-hover table-striped" border="1" cellpadding="0" cellspacing="0" width="100%">
+                                <tbody>
+                                        <tr class="zebra">
+                                            <td rowspan="2" valign="top">
+                                                <br>
+                                                Номер п/п
+                                            </td>
+                                            <td rowspan="2">
+                                                <p align="center">
+                                                    Наименование услуг
+                                                </p>
+                                            </td>
+                                            <td colspan="2">
+                                                <p align="center">
+                                                    <strong>Тариф с учетом налога на добавленную стоимость, рублей</strong>
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr class="">
+                                            <td>
+                                                <p align="center">
+                                                    для соединений, установленных с территории Республики Беларусь
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p align="center">
+                                                    для соединений, установленных&nbsp; из-за пределов территории Республики Беларусь
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr class="zebra zebrahover2">
+                                            <td valign="top">&nbsp;
+
+                                            </td>
+                                            <td colspan="3">
+                                                <p align="center">
+                                                    <strong>Тарифный план "Свободный"</strong>
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr class="">
+                                            <td valign="top">
+                                                <p align="center">
+                                                    1.
+                                                </p>
+                                            </td>
+                                            <td valign="top">
+                                                <p>
+                                                    <strong>Исходящее</strong> соединение для передачи голосового сообщения, за каждую полную и неполную минуту при выходе:
+                                                </p>
+                                            </td>
+                                            <td colspan="2" valign="top">&nbsp;
+
+                                            </td>
+                                        </tr>
+                                        <tr class="zebra">
+                                            <td valign="top">
+                                                <p align="center">
+                                                    1.1.
+                                                </p>
+                                            </td>
+                                            <td valign="top">
+                                                <p>
+                                                    &nbsp;на абонентов сети электросвязи общего &nbsp;&nbsp;&nbsp;&nbsp;пользования, в том числе абонентов Максифон
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p align="center">
+                                                    96
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p align="center">
+                                                    4 140
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr class="">
+                                            <td valign="top">
+                                                <p align="center">
+                                                    1.2.
+                                                </p>
+                                            </td>
+                                            <td valign="top">
+                                                <p>
+                                                    на абонентов операторов сотовой подвижной электросвязи
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p align="center">
+                                                    360
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p align="center">
+                                                    4 140
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr class="zebra">
+                                            <td valign="top">
+                                                <p align="center">
+                                                    2.
+                                                </p>
+                                            </td>
+                                            <td valign="top">
+                                                <p>
+                                                    <strong>Входящее </strong>соединение для передачи голосового сообщения, за каждую полную или неполную минуту
+                                                </p>
+                                            </td>
+                                            <td>&nbsp;
+
+                                            </td>
+                                            <td>
+                                                <p align="center">
+                                                    840
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr class="">
+                                            <td valign="top">
+                                                <p align="center">
+                                                    3.
+                                                </p>
+                                            </td>
+                                            <td valign="top">
+                                                <p>
+                                                    Плата за сохранение номера, рублей в месяц
+                                                </p>
+                                            </td>
+                                            <td colspan="2" valign="top">
+                                                <p align="center">
+                                                    10 800
+                                                </p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table> <!-- Конец макета таблицы Тарифа свободный для физических лиц-->
+                            </p>
+                            <p class="black rast">
+                                1. В соответствии с действующим законодательством тарифы для физических лиц (кроме индивидуальных предпринимателей) установлены с налогом на добавленную стоимость.
+                                <br>2. Плата за исходящее соединение абонентов сети электросвязи общего пользования с абонентами Максифон взимается <a href="http://beltelecom.by/ustanovka-i-polzovanie-telefonom">в соответствии с действующими тарифами на услуги по предоставлению междугородного телефонного соединения</a>.
+                                <br>3. Плата за выбор элитного номера, исходящие международные голосовые сообщения, замена номера по просьбе абонента, переоформление договора, выход на справочную службу (109) осуществляется за <a href="http://beltelecom.by/ustanovka-i-polzovanie-telefonom">в соответствии с действующими тарифами на услуги электросвязи общего пользования</a>.
+                                <br>4. Плата за соединения при передаче файлов и текстовых сообщений между абонентами Максифон не взимается.
+                                <br>5. Плата за видео соединения взимается <a href="http://beltelecom.by/ustanovka-i-polzovanie-telefonom"> в соответствии с тарифами на соединение по передаче голосовых сообщений</a>.
+                                <br>6. Плата за выход на справочные службы (123, 153) не взимается.
+                            </p>
+                            <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-times"></i> Закрыть</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tarif Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Тариф "Компаньон" </h2>
+                            <p class="item-intro text-muted">для юридических лиц <br>на услуги телефонии по IP-протоколу Максифон</p>
+                            <p class="item-intro text-muted">создан специально для корпоративных клиентов. В рамках тарифного плана «Компаньон» предоставляется 400 минут исходящих соединений на фиксированную сеть и 100 минут исходящих соединений на абонентов сотовой подвижной электросвязи. Звонки с Максифона на Максифон бесплатные. Подключение на ТП возможно при условии заказа не менее 5-ти номеров.</p>
+                            <!-- <img class="img-responsive img-centered" src="img/portfolio/startup-framework-preview.png" alt=""> -->
+                            <p> <!-- Тариф "Компанон"  для  юридических  лиц -->
+                               <table Class="table-hover table-striped" border="1" cellpadding="0" cellspacing="0" width="100%">
+                                <tbody>
+                                        <tr class="zebra">
+                                            <td rowspan="2" valign="top">
+                                                <br>
+                                                Номер п/п
+                                            </td>
+                                            <td rowspan="2">
+                                                <p align="center">
+                                                    Наименование услуг
+                                                </p>
+                                            </td>
+                                            <td colspan="2">
+                                                <p align="center">
+                                                    <strong>Тариф с учетом налога на добавленную стоимость, рублей</strong>
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr class="">
+                                            <td>
+                                                <p align="center">
+                                                    для соединений, установленных с территории Республики Беларусь
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p align="center">
+                                                    для соединений, установленных&nbsp; из-за пределов территории Республики Беларусь
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr class="zebra zebrahover2">
+                                            <td valign="top">&nbsp;
+
+                                            </td>
+                                            <td colspan="3">
+                                                <p align="center">
+                                                    <strong>Тарифный план "Компаньон"</strong>
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr class="">
+                                            <td valign="top">
+                                                <p align="center">
+                                                    1.
+                                                </p>
+                                            </td>
+                                            <td valign="top">
+                                                <p>
+                                                    Абонементная плата, в месяц:
+                                                </p>
+                                            </td>
+                                            <td colspan="2" valign="top">
+                                                <p>
+                                                    52 000
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr class="">
+                                            <td valign="top">
+                                                <p align="center">
+                                                    2.
+                                                </p>
+                                            </td>
+                                            <td valign="top">
+                                                <p>
+                                                    <strong>Исходящее</strong> соединение для передачи голосового сообщения, за каждую полную и неполную минуту при выходе:
+                                                </p>
+                                            </td>
+                                            <td colspan="2" valign="top">&nbsp;
+
+                                            </td>
+                                        </tr>
+                                        <tr class="zebra">
+                                            <td valign="top">
+                                                <p align="center">
+                                                    2.1.
+                                                </p>
+                                            </td>
+                                            <td valign="top">
+                                                <p>
+                                                    &nbsp;на абонентов сети электросвязи общего &nbsp;&nbsp;&nbsp;&nbsp;пользования, в том числе абонентов Максифон
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p align="center">
+                                                    -
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p align="center">
+                                                    3 450
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr class="">
+                                            <td valign="top">
+                                                <p align="center">
+                                                    2.2.
+                                                </p>
+                                            </td>
+                                            <td valign="top">
+                                                <p>
+                                                    на абонентов операторов сотовой подвижной электросвязи
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p align="center">
+                                                    -
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p align="center">
+                                                    3 450
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr class="zebra">
+                                            <td valign="top">
+                                                <p align="center">
+                                                    3.
+                                                </p>
+                                            </td>
+                                            <td valign="top">
+                                                <p>
+                                                    <strong>Входящее </strong>соединение для передачи голосового сообщения, за каждую полную или неполную минуту
+                                                </p>
+                                            </td>
+                                            <td>&nbsp;
+
+                                            </td>
+                                            <td>
+                                                <p align="center">
+                                                    700
+                                                </p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table> <!-- Конец макета таблицы Тарифа свободный для физических лиц-->
+                            </p>
+                            <p class="black rast">
+                                1.  В соответствии с действующим законодательством тарифы установлены  без учета налога на добавленную стоимость. Налог на добавленную стоимость взимается в соответствии с действующим законодательством.<br>
+                                2. Плата за исходящее соединение абонентов сети электросвязи общего пользования с абонентами Максифон  взимается в соответствии с действующими <a href="http://beltelecom.by/business/telephony/installation-and-use">тарифами на услуги по предоставлению междугородного телефонного соединения</a>.<br>
+                                3. Плата за выбор элитного номера осуществляется <a href="http://beltelecom.by/business/telephony/installation-and-use">в соответствии с действующими тарифами на услуги электросвязи общего пользования</a>.<br>
+                                4. Плата за исходящие международные голосовые сообщения взимается в соответствии с действующими тарифами на услуги по предоставлению международных телефонных соединений абонентам сети электросвязи общего пользования. Дополнительная плата за местное телефонное соединение не взимается.<br>
+                                5. При замене номера по просьбе абонента плата взимается в соответствии с действующими тарифами на услуги для абонентов сети электросвязи общего пользования по замене номера по просьбе абонента в пределах одной АТС.<br>
+                                6. Плата за переоформление договора осуществляется в соответствии с действующими тарифами на услуги электросвязи общего пользования за переоформление абонемента.<br>
+                                7. Плата за соединения при передаче файлов и текстовых сообщений между абонентами  Максифон не взимается.<br>
+                                8. Плата за видеосоединение взимается в соответствии с <a href="http://beltelecom.by/business/telephony/installation-and-use">тарифами на соединение по передаче голосовых сообщений</a>.<br>
+                                9. Плата за выход на справочную службу (109) взимается в соответствии с действующими тарифами на справочно-информационные услуги.<br>
+                                10. Плата за выход на справочные службы (123, 153) не взимается.<br>
+                                11. Абонементная плата по тарифному плану «Компаньон» включает 400 минут исходящих соединений для передачи голосового сообщения для соединений, установленных с территории РБ на абонентов сети электросвязи общего пользования, в том числе абонентов  Максифон, и 100 минут исходящих соединений для передачи голосового сообщения для соединений, установленных с территории РБ на абонентов сотовой подвижной электросвязи.<br>
+                                12. Неиспользованное количество минут исходящих соединений для передачи голосового сообщения, включенных в абонементную  плату тарифного плана «Компаньон» на следующий календарный период не переносится.<br>
+                                13. Оплата минут исходящих соединений для передачи голосового сообщения, установленных с территории РБ сверх учтенных в абонементной плате тарифного плана "Компаньон"" производится как для тарифного плана «Свободный».<br>
+                                14. Для абонентов тарифного плана "Компаньон" плата за исходящие соединения для передачи голосового сообщения, установленные внутри сети Максифон, не взимается.<br>
+                                Подключение к тарифному плану "Компаньон" осуществляется только при условии подключения не менее пяти номеров.<br>
+                            </p>
+                            <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-times"></i> Закрыть</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tarif Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                           <h2>Тариф "Выгодный" </h2>
+                            <p class="item-intro text-muted">для физических лиц (кроме индивидуальных предпринимателей)<br>на услуги телефонии по IP-протоколу Максифон</p>
+                            <!-- <img class="img-responsive img-centered" src="img/portfolio/startup-framework-preview.png" alt=""> -->
+                            <p> <!-- Тариф "Компанон"  для  юридических  лиц -->
+                               <table Class="table-hover table-striped" border="1" cellpadding="0" cellspacing="0" width="100%">
+                                <tbody>
+                                        <tr class="zebra">
+                                            <td rowspan="2" valign="top">
+                                                <br>
+                                                Номер п/п
+                                            </td>
+                                            <td rowspan="2">
+                                                <p align="center">
+                                                    Наименование услуг
+                                                </p>
+                                            </td>
+                                            <td colspan="2">
+                                                <p align="center">
+                                                    <strong>Тариф с учетом налога на добавленную стоимость, рублей</strong>
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr class="">
+                                            <td>
+                                                <p align="center">
+                                                    для соединений, установленных с территории Республики Беларусь
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p align="center">
+                                                    для соединений, установленных&nbsp; из-за пределов территории Республики Беларусь
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr class="zebra zebrahover2">
+                                            <td valign="top">&nbsp;
+
+                                            </td>
+                                            <td colspan="3">
+                                                <p align="center">
+                                                    <strong>Тарифный план "Выгодный"</strong>
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr class="">
+                                            <td valign="top">
+                                                <p align="center">
+                                                    1.
+                                                </p>
+                                            </td>
+                                            <td valign="top">
+                                                <p>
+                                                    Абонементная плата, в месяц:
+                                                </p>
+                                            </td>
+                                            <td colspan="2" valign="top">
+                                                <p>
+                                                    21 600
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr class="">
+                                            <td valign="top">
+                                                <p align="center">
+                                                    2.
+                                                </p>
+                                            </td>
+                                            <td valign="top">
+                                                <p>
+                                                    <strong>Исходящее</strong> соединение для передачи голосового сообщения, за каждую полную и неполную минуту при выходе:
+                                                </p>
+                                            </td>
+                                            <td colspan="2" valign="top">&nbsp;
+
+                                            </td>
+                                        </tr>
+                                        <tr class="zebra">
+                                            <td valign="top">
+                                                <p align="center">
+                                                    2.1.
+                                                </p>
+                                            </td>
+                                            <td valign="top">
+                                                <p>
+                                                    &nbsp;на абонентов сети электросвязи общего &nbsp;&nbsp;&nbsp;&nbsp;пользования, в том числе абонентов Максифон
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p align="center">
+                                                    -
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p align="center">
+                                                    3 600
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr class="">
+                                            <td valign="top">
+                                                <p align="center">
+                                                    2.2.
+                                                </p>
+                                            </td>
+                                            <td valign="top">
+                                                <p>
+                                                    на абонентов операторов сотовой подвижной электросвязи
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p align="center">
+                                                    300
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p align="center">
+                                                    3 600
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr class="zebra">
+                                            <td valign="top">
+                                                <p align="center">
+                                                    3.
+                                                </p>
+                                            </td>
+                                            <td valign="top">
+                                                <p>
+                                                    <strong>Входящее </strong>соединение для передачи голосового сообщения, за каждую полную или неполную минуту
+                                                </p>
+                                            </td>
+                                            <td>
+                                                -
+                                            </td>
+                                            <td>
+                                                <p align="center">
+                                                    720
+                                                </p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table> <!-- Конец макета таблицы Тарифа свободный для физических лиц-->
+                            </p>
+                            <p class="black rast">
+                                1. В соответствии с действующим законодательством тарифы для физических лиц (кроме индивидуальных предпринимателей) установлены с налогом на добавленную стоимость.
+                                <br>2. Плата за исходящее соединение абонентов сети электросвязи общего пользования с абонентами Максифон взимается <a href="http://beltelecom.by/ustanovka-i-polzovanie-telefonom">в соответствии с действующими тарифами на услуги по предоставлению междугородного телефонного соединения</a>.
+                                <br>3. Плата за выбор элитного номера, исходящие международные голосовые сообщения, замена номера по просьбе абонента, переоформление договора, выход на справочную службу (109) осуществляется за <a href="http://beltelecom.by/ustanovka-i-polzovanie-telefonom">в соответствии с действующими тарифами на услуги электросвязи общего пользования</a>.
+                                <br>4. Плата за соединения при передаче файлов и текстовых сообщений между абонентами Максифон не взимается.
+                                <br>5. Плата за видео соединения взимается <a href="http://beltelecom.by/ustanovka-i-polzovanie-telefonom">в соответствии с тарифами на соединение по передаче голосовых сообщений</a>.
+                                <br>6. Плата за выход на справочные службы (123, 153) не взимается.
+                            </p>
+                            <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-times"></i> Закрыть</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tarif Modal 5 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                           <h2>Тариф "Компаньон плюс" </h2>
+                            <p class="item-intro text-muted">для юридических лиц <br>на услуги телефонии по IP-протоколу Максифон</p>
+                            <p class="item-intro text-muted">создан специаьлно для корпоративных клиентов. В рамках тарифного плана «Компаньон» предоставляется 800 минут исходящих соединений на фиксированную сеть и 200 минут исходящих соединений на абонентов сотовой подвижной электросвязи. Звонки с Максифона на Максифон бесплатные. Подключение на ТП возможно при условии заказа не менее 5-ти номеров.
+                            </p>
+                            <!-- <img class="img-responsive img-centered" src="img/portfolio/startup-framework-preview.png" alt=""> -->
+                            <p> <!-- Тариф "Компанон"  для  юридических  лиц -->
+                               <table Class="table-hover table-striped" border="1" cellpadding="0" cellspacing="0" width="100%">
+                                <tbody>
+                                        <tr class="zebra">
+                                            <td rowspan="2" valign="top">
+                                                <br>
+                                                Номер п/п
+                                            </td>
+                                            <td rowspan="2">
+                                                <p align="center">
+                                                    Наименование услуг
+                                                </p>
+                                            </td>
+                                            <td colspan="2">
+                                                <p align="center">
+                                                    <strong>Тариф с учетом налога на добавленную стоимость, рублей</strong>
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr class="">
+                                            <td>
+                                                <p align="center">
+                                                    для соединений, установленных с территории Республики Беларусь
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p align="center">
+                                                    для соединений, установленных&nbsp; из-за пределов территории Республики Беларусь
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr class="zebra zebrahover2">
+                                            <td valign="top">&nbsp;
+
+                                            </td>
+                                            <td colspan="3">
+                                                <p align="center">
+                                                    <strong>Тарифный план "Выгодный"</strong>
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr class="">
+                                            <td valign="top">
+                                                <p align="center">
+                                                    1.
+                                                </p>
+                                            </td>
+                                            <td valign="top">
+                                                <p>
+                                                    Абонементная плата, в месяц:
+                                                </p>
+                                            </td>
+                                            <td colspan="2" valign="top">
+                                                <p>
+                                                    100 000
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr class="">
+                                            <td valign="top">
+                                                <p align="center">
+                                                    2.
+                                                </p>
+                                            </td>
+                                            <td valign="top">
+                                                <p>
+                                                    <strong>Исходящее</strong> соединение для передачи голосового сообщения, за каждую полную и неполную минуту при выходе:
+                                                </p>
+                                            </td>
+                                            <td colspan="2" valign="top">&nbsp;
+
+                                            </td>
+                                        </tr>
+                                        <tr class="zebra">
+                                            <td valign="top">
+                                                <p align="center">
+                                                    2.1.
+                                                </p>
+                                            </td>
+                                            <td valign="top">
+                                                <p>
+                                                    &nbsp;на абонентов сети электросвязи общего &nbsp;&nbsp;&nbsp;&nbsp;пользования, в том числе абонентов Максифон
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p align="center">
+                                                    -
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p align="center">
+                                                    3 450
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr class="">
+                                            <td valign="top">
+                                                <p align="center">
+                                                    2.2.
+                                                </p>
+                                            </td>
+                                            <td valign="top">
+                                                <p>
+                                                    на абонентов операторов сотовой подвижной электросвязи
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p align="center">
+                                                    -
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p align="center">
+                                                    3 450
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr class="zebra">
+                                            <td valign="top">
+                                                <p align="center">
+                                                    3.
+                                                </p>
+                                            </td>
+                                            <td valign="top">
+                                                <p>
+                                                    <strong>Входящее </strong>соединение для передачи голосового сообщения, за каждую полную или неполную минуту
+                                                </p>
+                                            </td>
+                                            <td>
+                                                -
+                                            </td>
+                                            <td>
+                                                <p align="center">
+                                                    700
+                                                </p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </p>
+                            <p class="black rast">
+                                1.  В соответствии с действующим законодательством тарифы установлены  без учета налога на добавленную стоимость. Налог на добавленную стоимость взимается в соответствии с действующим законодательством.<br>
+                                2. Плата за исходящее соединение абонентов сети электросвязи общего пользования с абонентами Максифон  взимается в соответствии с действующими <a href="http://beltelecom.by/business/telephony/installation-and-use">тарифами на услуги по предоставлению междугородного телефонного соединения</a>.<br>
+                                3. Плата за выбор элитного номера осуществляется <a href="http://beltelecom.by/business/telephony/installation-and-use">в соответствии с действующими тарифами на услуги электросвязи общего пользования</a>.<br>
+                                4. Плата за исходящие международные голосовые сообщения взимается в соответствии с действующими тарифами на услуги по предоставлению международных телефонных соединений абонентам сети электросвязи общего пользования. Дополнительная плата за местное телефонное соединение не взимается.<br>
+                                5. При замене номера по просьбе абонента плата взимается в соответствии с действующими тарифами на услуги для абонентов сети электросвязи общего пользования по замене номера по просьбе абонента в пределах одной АТС.<br>
+                                6. Плата за переоформление договора осуществляется в соответствии с действующими тарифами на услуги электросвязи общего пользования за переоформление абонемента.<br>
+                                7. Плата за соединения при передаче файлов и текстовых сообщений между абонентами  Максифон не взимается.<br>
+                                8. Плата за видеосоединение взимается в соответствии с <a href="http://beltelecom.by/business/telephony/installation-and-use">тарифами на соединение по передаче голосовых сообщений</a>.<br>
+                                9. Плата за выход на справочную службу (109) взимается в соответствии с действующими тарифами на справочно-информационные услуги.<br>
+                                10. Плата за выход на справочные службы (123, 153) не взимается.<br>
+                                11. Абонементная плата по тарифному плану «Компаньон» включает 400 минут исходящих соединений для передачи голосового сообщения для соединений, установленных с территории РБ на абонентов сети электросвязи общего пользования, в том числе абонентов  Максифон, и 100 минут исходящих соединений для передачи голосового сообщения для соединений, установленных с территории РБ на абонентов сотовой подвижной электросвязи.<br>
+                                12. Неиспользованное количество минут исходящих соединений для передачи голосового сообщения, включенных в абонементную  плату тарифного плана «Компаньон» на следующий календарный период не переносится.<br>
+                                13. Оплата минут исходящих соединений для передачи голосового сообщения, установленных с территории РБ сверх учтенных в абонементной плате тарифного плана "Компаньон" производится как для тарифного плана «Свободный».<br>
+                                14. Для абонентов тарифного плана "Компаньон" плата за исходящие соединения для передачи голосового сообщения, установленные внутри сети Максифон, не взимается.<br>
+                                Подключение к тарифному плану "Компаньон" осуществляется только при условии подключения не менее пяти номеров.
+                            </p>
+                            <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-times"></i> Закрыть</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Help Modal 1 -->
+    <div class="portfolio-modal modal fade" id="helpModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Памятка пользователя смартфона Android</h2>
+                            <div class="col-md-12">
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-square fa-stack-2x text-primary green"></i>
+                                    <i class="fa fa-android fa-stack-1x white"></i>
+                                </span>
+                            </div>
+                            <p>
+                                Ознакомьтесь с памяткой абонента услуги Максифон для<a href="http://beltelecom.by/sites/default/files/content/Maxiphone/Pamiatka%20Maxiphone%20dlia%20Android.pdf" target="blank"> операционной системы Android</a> (pdf)
+                                <table border="1" cellpadding="0" cellspacing="0" class="table table-bordered bordwt ">
+                                    <tbody>
+                                        <tr>
+                                            <td colspan="5">
+                                                <p align="center">
+                                                    Список рекомендуемых терминалов
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p align="center">
+                                                    Устройство
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p align="center">
+                                                    Операционная система
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p align="center">
+                                                    Разрешение
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p align="center">
+                                                    Терминалы, прошедшие тестирование на совместимость
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p align="center">
+                                                    Аналогичные терминалы
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td rowspan="4">
+                                                <p>
+                                                    Android
+                                                </p>
+                                            </td>
+                                            <td rowspan="4">
+                                                <p>
+                                                    Android 2.x（2.2 and above）
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p>
+                                                    480&times;800
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p>
+                                                    HTC G20;<br />
+                                                    HUAWEI U8850;<br />
+                                                    SAMSUNG i8150/i9000/i9100/ i9103;
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p>
+                                                    SAMSUNG i9001/i9003/i9023;<br />
+                                                    LG OPTIMUS BLACK P970/PRADA 3.0 P940;
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>
+                                                    480&times;854
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p>
+                                                    HUAWEI U8860;<br />
+                                                    MOTO XT910;
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p>
+                                                    MOTO ME525;<br />
+                                                    Sony Ericsson LT18i/ST18i/MT11i/Z1i;
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>
+                                                    540&times;960
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p>
+                                                    HTC G18
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p>
+                                                    HTC G17;
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>
+                                                    720&times;1280
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p>&nbsp;
+
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p>
+                                                    SAMSUNG i9250;
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td rowspan="6">
+                                                <p>
+                                                    Android
+                                                </p>
+                                            </td>
+                                            <td rowspan="6">
+                                                <p>
+                                                    Android 4.x
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p>
+                                                    480x800
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p>
+                                                    SAMSUNG i9100/ i9250;
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p>
+                                                    HTC T328d;
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>
+                                                    480&times;854
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p>
+                                                    HUAWEI U8860;
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p>&nbsp;
+
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>
+                                                    540&times;960
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p>
+                                                    HTC G14/G18/One S/G22;<br />
+                                                    HUAWEI U9200/9200e(P1 XL);<br />
+                                                    MOTO XT910;
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p>&nbsp;
+
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>
+                                                    720&times;1280
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p>
+                                                    HTC One X;<br />
+                                                    SAMSUNG i9250/i9300(Galaxy SIII)/N7100(NOTE II)<br />
+                                                    HUAWEI U9508 (Honor 2)/U9150e(D1)/MATE
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p>&nbsp;
+
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>
+                                                    768&times;1280
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p>
+                                                    LG E960(NEXUS 4)
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p>&nbsp;
+
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>
+                                                    1080&times;1920
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p>
+                                                    HUAWEI D2<br />
+                                                    HTC X920e(Butterfly)
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p>&nbsp;
+
+                                                </p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </p>
+                            <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-times"></i> Закрыть</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Help Modal 2 -->
+    <div class="portfolio-modal modal fade" id="helpModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Памятка пользователя ПК</h2>
+                            <div class="col-md-12">
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-square fa-stack-2x text-primary"></i>
+                                    <i class="fa fa-laptop fa-stack-1x white"></i>
+                                </span>
+                            </div>
+                            <div class="row">
+                                <p>
+                                    Ознакомьтесь с памяткой абонента услуги Максифон для <a href="http://beltelecom.by/sites/default/files/content/Maxiphone/Pamiatka%20Maxiphone%20dlia%20PK.pdf" target="blank">операционных систем Windows</a> (pdf)
+                                </p>
+                                <p>
+                                    Обратите внимание на общие требования к вашему ПК с ОС Windows. Параметры его аппаратной части должны соответствовать заявленным ниже:
+                                </p>
+                                <p align="center">
+                                    ЦП (CPU) от 2,0 ГГц<br>
+                                    ОП (RAM) от 1 Гб<br>
+                                    Дисковое ЗУ от 30 Гб<br>
+                                    Камера от 300K пикселей<br>
+                                </p>
+                            </div>
+                            <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-times"></i> Закрыть</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Help Modal 3 -->
+    <div class="portfolio-modal modal fade" id="helpModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Порядок оказания услуги Максифон</h2>
+                            <p class="item-intro text-muted">Порядок оказания услуги Максифон (вступает в силу с 06 октября 2014 г.)<p>
+                            <div class="col-md-12">
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-square fa-stack-2x text-primary orange"></i>
+                                    <i class="fa fa-file-text fa-stack-1x white"></i>
+                                </span>
+                            </div>
+                            <p>
+                                <dl class="text-left">
+                                    <p class="textmain">
+                                    <h5>1. ОБЩИЕ ПОЛОЖЕНИЯ</h5><br>
+                                    1.1. Настоящий документ устанавливает порядок взаимоотношений между Республиканским унитарным предприятием электросвязи «Белтелеком» (далее – «Оператор») и юридическими, физическими лицами, а также индивидуальными предпринимателями (далее - «Абоненты»), использующими предоставляемую Оператором услугу «Максифон» (далее – «Услугу»).<br>
+                                    1.2. Услуга предоставляется Оператором на основании Лицензии Министерства связи и информатизации Республики Беларусь № 02140\487 от 20.08.2004 г.<br>
+                                    1.3. Услуга предоставляется на договорной основе.<br>
+                                    1.4. Услуга не является потенциально опасной для жизни, здоровья и наследственности человека, имущества и окружающей среды.<br>
+                                    1.5. Оператор уведомляет Абонента обо всех вносимых изменениях в договор об оказании услуг электросвязи (далее – Договор) и в тарифы, установленные тарифным планом, путем размещения соответствующей информации на официальном Интернет-сайте www.beltelecom.by, содержащего текст изменений либо источник информации о них.<br>
+                                    1.6. Оператор уведомляет Абонента о повышении установленных тарифов не позднее чем за 10 дней до внесения изменений.</p>
+
+                                    <p><h5>2. ТЕРМИНЫ И ОПРЕДЕЛЕНИЯ</h5><br>
+                                    В настоящем документе применяются следующие термины с соответствующими определениями:</p>
+
+                                    <p>Абонент – пользователь услуг электросвязи, с которым заключен договор об оказании таких услуг при выделении для этих целей абонентского номера или уникального кода идентификации.</p>
+
+                                    <p>Абонентский номер (логин) — информация, предоставляемая Абоненту Оператором в пользование при заключении Договора (Приложения об оказании услуги «Максифон») и идентифицирующая Абонента при пользовании Услугой.</p>
+
+                                    <p>Абонентское устройство — пользовательское оборудование Абонента (компьютер, смартфон) с установленным Приложением «Максифон, обеспечивающее доступ к Услуге Оператора, посредством подключения данного оборудования к сети Интернет.<br>
+                                    Аутентификационные данные –– уникальный логин (login) и пароль (password) Абонента, выделяемые Оператором Абоненту для доступа к Услуге.</p>
+
+                                    <p>Биллинговая система Оператора — автоматизированная система Оператора, используемая им для учета операций по оказанию услуг Абоненту.</p>
+
+                                    <p>«Кабинет пользователя» - сервис Оператора, позволяющий Абоненту самостоятельно контролировать состояние лицевого счета Абонента в биллинговой системе Оператора, подключать и отключать дополнительные услуги и сервисы. Кабинет пользователя доступен в сети Интернет по адресу https://issa.beltelecom.by.<br>
+                                    Функции управления услугой, доступные через «кабинет пользователя»:<br>
+                                    - отображение информации о состоянии лицевого счета;<br>
+                                    - отображение информации о стоимости услуг;<br>
+                                    - отображение информации о платежах;<br>
+                                    - заказ дополнительных сервисов («Музыкальный марафон»);<br>
+                                    - пополнение баланса лицевого счета путем активации карт экспресс оплаты или регистрации обещанного платежа;<br>
+                                    - смена тарифного плана.<br>
+                                    - Смена тарифного плана. Изменение тарифного плана «Выгодный» на тарифный план «Свободный» производится по истечении не менее 30 (тридцати) дней с момента активации или предыдущей смены тарифного плана. Изменение тарифного плана «Свободный» на тарифный план «Выгодный» осуществляется без временных ограничений.</p>
+
+                                    <p>Лицевой счет — регистр аналитического учета в биллинговой системе Оператора, предназначенный для отражения операций по оказанию услуг связи Абоненту и начислению платежей.</p>
+
+                                    <p>«Музыкальный марафон» - услуга, позволяющая Абоненту заменить стандартный сигнал ожидания ответа абонента для входящих телефонных вызовов с различных сетей музыкальными мелодиями или фразами.</p>
+
+                                    <p>«Элитный номер» - услуга, позволяющая Абоненту выбрать номер из перечня свободных абонентских номеров Услуги «Максифон».</p>
+
+                                    <p>Оператор – Республиканское унитарное предприятие электросвязи «Белтелеком».</p>
+
+                                    <p>«Обещанный платеж» – сервис Оператора, позволяющий Абоненту пополнить лицевой счет без выполнения реального платежа Оператору.</p>
+
+                                    <p>Пароль - секретный набор цифр и/или символов и/или латинских букв, предназначенный для аутентификации Абонента в Приложении Максифон.</p>
+
+                                    <p>Приложение Максифон - приложение, которое позволяет получить доступ к Услуге посредством компьютера (персонального, портативного) или смартфона. Приложение позволяет совершать телефонные вызовы, видеовызовы и передавать мгновенные сообщения.</p>
+
+                                    <p>Тарифный план - совокупность ценовых условий, на которых Оператор предлагает пользоваться одной либо несколькими Услугами.</p>
+
+                                    <p>Услуга «Максифон» - телематическая услуга, объединяющая в себе услугу телефонии по IP-протоколу и обмена мгновенными сообщениями.</p>
+
+                                    <p>Учетная запись Абонента — запись в базе данных платформы Услуги, содержащая информацию об Абоненте, включающая помимо прочего Абонентский номер (Логин) и Пароль.</p>
+
+                                    <p>Принудительная блокировка – приостановка оказания Оператором услуг связи Абоненту при условии недостатка средств на Лицевом счете Абонента.</p>
+
+                                    <p><h5>3. ОПИСАНИЕ УСЛУГИ</h5></p>
+
+                                    <p>3.1. Услуга включает в себя:<br>
+                                    3.1.1. возможность использования (с применением Приложения Максифон) следующих функций:<br>
+                                    - осуществлять телефонные соединения с абонентами Услуги, абонентами местной телефонной сети, а также междугородные и международные соединения, в том числе с абонентами операторов сотовой подвижной электросвязи;<br>
+                                    - осуществлять видео соединения с абонентами Услуги, с абонентами сети IMS Оператора, использующим в качестве оконечного абонентского устройства видеотелефон;<br>
+                                    - осуществлять голосовые соединения со службами 123, 130, 153, 109.<br>
+                                    3.1.2. возможность использования дополнительных услуг и сервисов:<br>
+                                    - «Музыкальный марафон»;<br>
+                                    - «Элитный номер»;<br>
+                                    - «Замена номера» - производится:<br>
+                                    - по инициативе Абонента – за оплату, размер которой устанавливается Оператором;<br>
+                                    - по инициативе Оператора (без взимания оплаты), если продолжение оказания Услуги с использованием выделенного ранее номера невозможно по технической причине. В таком случае Оператор не позднее чем за 30 дней до предстоящей замены обязан уведомить Абонента об этом с указанием причины и даты замены, нового абонентского номера;<br>
+                                    - «Переоформление Приложения на другое лицо» - производится в случаях:<br>
+                                    - изменения абонентом фамилии, имени, отчества;<br>
+                                    - изменения юридическим лицом наименования либо текущего (расчетного) счета или реорганизации юридического лица на основании извещения;<br>
+                                    - подачи Абонентом заявления о предоставлении права пользования абонентским номером третьему лицу;<br>
+                                    - смерти Абонента – преимущественным правом пользуются члены его семьи.<br>
+                                    - «Детализация счета»;<br>
+                                    3.2. Услуга не предусматривает:<br>
+                                    - совершение вызовов на номера экстренных служб, а также на номера справочно-информационных служб (за исключением 123, 130, 153, 109);<br>
+                                    - оказание услуг доступа в сеть Интернет;<br>
+                                    - изменения перечня открытых и/или закрытых направлений связи.</p>
+
+                                    <p><h5>4. ОФОРМЛЕНИЕ ДОГОВОРНЫХ ОТНОШЕНИЙ</h5></p>
+
+                                    <p>4.1. Услуга предоставляется в рамках заключенного Договора и Приложения об оказании услуги «Максифон», являющегося неотъемлемой частью Договора.<br>
+                                    4.2. Консультации и оформление договорных отношений на Услугу осуществляются в службах продаж Оператора.<br>
+                                    4.3. Оказание Услуги оформляется путем заключения с Абонентом Договора и Приложения об оказании услуги.<br>
+                                    4.4. В Договоре и Приложении устанавливаются взаимные права и обязанности Оператора и Абонента.<br>
+                                    4.5. Процедура заключения Договора и Приложений об оказании Услуги выполняется согласно требованиям нормативных документов Оператора и в соответствии с законодательством Республики Беларусь.<br>
+                                    4.6. Абоненту (физическому лицу) в рамках Договора может быть выделено не более 5 (пяти) абонентских номеров».<br>
+                                    4.7. При оформлении договорных отношений на тарифный план, включающий абонементную плату, Абонент обязан внести первоначальный платеж в размере не менее суммы ежемесячной абонементной платы выбранного тарифного плана.<br>
+                                    4.8. Оператор вправе отказать Абоненту в оказании Услуги (выделении новых абонентских номеров Максифон) в случаях:<br>
+                                    - наличия непогашенной задолженности по оплате Услуги (по ранее выделенным абонентским номерам, в т.ч. заблокированным);<br>
+                                    - нарушения (однократного) со стороны Абонента п.8.4. настоящего Порядка оказания.<br>
+                                    4.9. Абоненту (индивидуальному предпринимателю) в рамках Договора может быть выделено не более 4 (четырех) абонентских номеров.</p>
+
+                                    <p><h5>5. АУТЕНТИФИКАЦИОННЫЕ ДАННЫЕ</h5></p>
+
+                                    <p>5.1. Для доступа к Услуге Абонент использует Аутентификационные данные (логин и пароль), сохранение конфиденциальности которых Абонент обеспечивает самостоятельно.<br>
+                                    5.2. Абоненту запрещается:<br>
+                                    - использование для доступа к Услуге иных, не выданных ему по Договору, Аутентификационных данных, а также распространение выданных ему Аутентификационных данных (в т.ч. передача третьим лицам) любыми возможными способами;<br>
+                                    - использование Аутентификационных данных третьих лиц для доступа к Услуге, а также распространение таких данных в общедоступных ресурсах сети Интернет.<br>
+                                    5.3. Абонент несет личную ответственность за все совершенные действия в объеме возможностей Услуги, произведенные под Аутентификационными данными Абонента.<br>
+                                    5.4. Оператор не несет ответственность за неправомерные действия Абонента, совершенные при использовании Услуги Оператора, произведенные под Аутентификационными данными Абонента.<br>
+                                    5.5. Пароль доступа к Услуге может быть изменен Абонентом самостоятельно через «Кабинет пользователя» по адресу https://issa.beltelecom.by (раздел Тарифы и услуги/Заказанные услуги) или при обращении Абонента в службу продаж Оператора.<br>
+                                    5.6. Восстановление пароля (в случае, если Абонент забыл пароль) Оператором не производится.</p>
+
+                                    <p><h5>6. НЕОБХОДИМЫЕ УСЛОВИЯ ДЛЯ ПОЛЬЗОВАНИЯ УСЛУГОЙ</h5></p>
+
+                                    <p>6.1. Для использования Приложения Максифон необходим доступ к сети Интернет.<br>
+                                    6.2. Приложение Максифон работает на базе операционных систем:<br>
+                                    6.2.1. Для персональных компьютеров: Windows 7, Windows Vista, Windows XP;<br>
+                                    Системные требования для операционной системы Windows:<br>
+                                    - процессор не менее 2,0 ГГц;<br>
+                                    - оперативная память не менее 1Гб и свободное пространство на жестком диске 30Гб;<br>
+                                    - наличие доступа в сеть Интернет;<br>
+                                    - наличие видеоустройства с количеством пикселей матрицы не менее 0,3мегапикселей.<br>
+                                    6.2.2. Для мобильных устройств: Android версии не ниже 2.2.<br>
+                                    Системные требования для операционной системы Android:<br>
+                                    - оперативная память не менее 512Мб;<br>
+                                    - наличие доступа в сеть Интернет;<br>
+                                    - наличие видеоустройства с количеством пикселей матрицы не менее 0,3мегапикселей.<br>
+                                    Перечень устройств, по своим техническим параметрам рекомендуемых по итогам тестирования для установки и использования Приложения Максифон, размещается на сайте Оператора www.beltelecom.by.<br>
+                                    6.3. Установка Приложения Максифон на Абонентское устройство производится Абонентом самостоятельно.<br>
+                                    6.4. Параметры доступа в Интернет, достаточные для осуществления:<br>
+                                    - передачи голосового сообщения: минимальная скорость в каждом направлении 100 кбит/с, максимальная 150кбит/с;<br>
+                                    - обмена мгновенными сообщениями: минимальная скорость в каждом направлении 64 кбит/с;<br>
+                                    - передачи видео сообщения: минимальная скорость в каждом направлении 484 Кбит/с, максимальная 640кбит/с.<br>
+                                    6.5. Оператор гарантирует работу Услуги только при использовании Приложения Максифон.<br>
+                                    6.6. Для полного использования всех возможностей Услуги абонентское устройство должно функционально предусматривать наличие микрофона, динамиков и камеры.<br>
+                                    6.7. Приложение Максифон доступно для скачивания и установки:<br>
+                                    - для операционной системы Windows на сайте Оператора по ссылкам http://www.beltelecom.by/maxifon-1 и http://www.beltelecom.by/maxifon-0;<br>
+                                    - для операционной системы Android в магазине Приложений GOOGLE Play, на сайте Оператора по ссылкам http://www.beltelecom.by/maxifon-1 и http://www.beltelecom.by/maxifon-0;</p>
+
+                                    <p><h5>7. ТЕХНИЧЕСКИЕ ВОЗМОЖНОСТИ ПРИЛОЖЕНИЯ МАКСИФОН</h5></p>
+
+                                    <p>7.1. Объем Интернет-трафика, потребляемого Приложением Максифон при голосовом и видео соединениях, не стабилен и зависит от скорости подключения к сети Интернет (и вызывающего, и вызываемого абонентов), а также от насыщенности самого разговора. Таким образом, трафик при передаче сообщений в разных условиях может значительно отличаться. В среднем объём трафика при передаче голосовых сообщений составляет ориентировочно 500 кбайт/минуту, при передаче видео сообщений – 5Мб/минуту.<br>
+                                    7.2. Объем Интернет-трафика, потребляемого Приложения Максифон в фоновом режиме, составляет:<br>
+                                    - для операционной системы Android: 0,8~1,2 Мб/за 12 часов;<br>
+                                    - для операционных систем Windows 7, Windows XP: 3~4 Мб/за 12 часов.<br>
+                                    7.3. Передача файлов доступна только при использовании версий Приложения Максифон для персональных компьютеров.<br>
+                                    7.4. Объем передаваемого файла (.doc, .docx, .xls, .xlsx, .txt, .pdf, .vsd) ограничен 20Мбайт, изображения (.png, .gif, .jpg, .tif, .bmp) - не более 5Мб.<br>
+                                    7.5. Размер одного текстового сообщения ограничивается 512 символами. При превышении количества символов в текстовом сообщении Абонент получит оповещение о том, что введено максимальное количество символов.<br>
+                                    7.6. Многопользовательский чат при неактивности Абонентов в течение 5 минут принудительно закрывается Приложением Максифон.<br>
+                                    7.7. При пропадании доступа к сети Интернет у одного из Абонентов многопользовательского чата, чат принудительно закрывается Приложением Максифон.</p>
+
+                                    <p><h5>8. ПРЕДОСТАВЛЕНИЕ УСЛУГИ И ПРЕКРАЩЕНИЕ ДОСТУПА К УСЛУГЕ</h5><br>
+                                    8.1. Услуга становится доступной Абоненту с 00:00 часов даты, указанной в Бланке заказа к Приложению об оказании Услуги (если Абонент заказывает Услугу с отсроченной датой активации). Если дата активации Услуги соответствует дате подписания Бланка заказа – Услуга становится доступной абоненту с момента подписания.<br>
+                                    8.2. Услуга доступна 24 часа в сутки, 7 дней в неделю.<br>
+                                    8.3. Прекращение доступа к Услуге осуществляется в дату, указанную в заявлении Абонента.<br>
+                                    8.4. При пользовании Услуги Абоненту запрещается:<br>
+                                    - использовать Услугу в коммерческих целях;<br>
+                                    - использовать любое программное обеспечение для получения удаленного доступа к устройствам, использующим Услугу;<br>
+                                    - использовать любое программное обеспечение и/или настройки программного обеспечения для подмены IP-адресации (proxy);<br>
+                                    - использовать нецензурную лексику на Сайте Оператора (чатах, форумах и пр.);<br>
+                                    - использовать нецензурную лексику в электронных письмах и разговорах с сотрудниками Оператора.<br>
+                                    При нарушении перечисленных ограничений, а также в случае возникновения у Оператора оснований полагать, что Абонентом совершаются правонарушения, причиняющие ущерб Оператору, третьим лицам или государству, Оператор оставляет за собой право приостановить оказание Услуги без предварительного уведомления Абонента. Если в течение 30 дней с момента приостановления оказания Услуги Абонент не обратиться к Оператору за восстановлением доступа к Услуге, Оператор производит расторжение Приложения об оказании Услуги в одностороннем порядке. Абонентский номер блокируется на период 180 дней, после чего может быть предоставлен в пользование другому Абоненту. Право преимущественного использования ранее выделенного абонентского номера на таких Абонентов не распространяется.<br>
+                                    8.5. Смена тарифного плана производится по истечении не менее 30 (тридцати) дней с момента активации или предыдущей смены тарифного плана.<br></p>
+
+                                    <p><h5>9. ОПЛАТА УСЛУГ</h5><br>
+                                    9.1. Оплата Услуг производится Абонентом на условиях и в сроки, определенные договорными отношениями, настоящим Порядком и в соответствии с утвержденными Оператором тарифами.<br>
+                                    9.2. Для оплаты Услуг применяется<br>
+                                    - кредитная и авансовая форма оплаты – для юридических лиц и индивидуальных предпринимателей (резидентов Республики Беларусь);<br>
+                                    - авансовая форма оплаты – для юридических лиц или индивидуальных предпринимателей (нерезидентов Республики Беларусь);<br>
+                                    - авансовая форма оплаты – для физических лиц (граждан Республики Беларусь и граждан иностранных государств).<br>
+                                    9.3. Списание денежных средств с лицевого счета Абонента производится в соответствии с условиями выбранного тарифного плана.<br>
+                                    9.4. Абоненты-физические лица, самостоятельно выбирают способ оплаты Услуг (пополнение лицевого счета) из технически доступных вариантов:<br>
+                                    - наличный расчёт;<br>
+                                    - безналичный расчёт, в том числе с использованием банковских карт;<br>
+                                    - с помощью карт экспресс оплаты;<br>
+                                    - с помощью виртуальных карт экспресс оплаты.<br>
+                                    9.5. Продолжительность соединения, используемая для определения размера платы за трафик, определяется с 1-ой секунды после ответа вызываемого абонента (или оборудования, его заменяющего) до момента отбоя вызывающего или вызываемого абонента (или оборудования, его заменяющего).<br>
+                                    9.6. Единицей тарификации соединения является продолжительность соединения, за предоставление которого с абонента взимается плата, равная тарифу, установленному для соединения данного вида.<br>
+                                    9.7. Стоимость соединения определяется исходя из его продолжительности умноженной на тариф.<br>
+                                    9.8. Оператор не производит принудительный разрыв соединения. Если во время соединения у абонентов Услуги (или одного из абонентов Услуги) возникли проблемы с доступом к сети Интернет (разрыв соединения, пропадание пакетов, понижение уровня сигнала сети беспроводной связи), то такие соединения учитываются и тарифицируются в полном объеме, зафиксированном биллинговой системой Оператора.<br>
+                                    9.9. Тарификация установленного абонентом соединения производится биллинговой системой Оператора после его завершения.<br>
+                                    9.10. Тарифы на Услугу не предусматривают оказание услуг доступа к сети Интернет.<br>
+                                    9.11. Абонент самостоятельно контролирует состояние лицевого счета посредством «Кабинета пользователя», доступного по адресу http://issa.beltelecom.by.<br>
+                                    9.12. Абонент самостоятельно определяет сумму пополнения лицевого счета.<br>
+                                    9.13. Особенности начислений при использовании авансовой формы оплаты<br>
+                                    9.13.1. Оператор не производит принудительный разрыв соединения, если на момент установления этого соединения на лицевом счете был положительный баланс, сумма которого по факту меньше стоимости установленного соединения.<br>
+                                    9.13.2. Абонементная плата, в том числе за дополнительные услуги, списывается с лицевого счета ежедневно равными долями в течение периода оказания Услуг. Сумма, подлежащая ежедневному списанию, рассчитывается исходя из тарифа разделенного на количество дней в текущем месяце.<br>
+                                    9.13.3. Плата за сохранение номера списывается с лицевого счета абонента разово первого числа каждого последующего месяца, если в предыдущем месяце с абонентского номера не зарегистрированы установленные платные соединения. Исключение составляет месяц, в котором была активирована Услуга. За этот месяц, независимо от даты активации Услуги, плата за сохранение номера не списывается.<br>
+                                    9.13.4. Абоненту доступен сервис «Обещанный платеж». Регистрация обещанного платежа производится Абонентом самостоятельно через «Кабинет пользователя». Максимальная сумма обещанного платежа составляет 35 000 рублей. Если в течение трех дней с момента заказа сервиса «Обещанный платеж» Абонент не подтвердит его реальной оплатой, то сумма обещанного платежа списывается с лицевого счета Абонента. Вновь воспользоваться сервисом «Обещанный платеж» будет невозможно до погашения Абонентом возникшей задолженности.<br>
+                                    9.13.5. При нулевом или отрицательном балансе лицевого счета Оператор принудительно блокирует только исходящую связь (при этом входящая связь доступна, в т.ч. при установлении соединений за пределами Республики Беларусь).<br>
+                                    9.13.6. Абонент не освобождается от абонементной платы на период временного прекращения доступа к Услуге по причине нулевого или отрицательного баланса лицевого счета (принудительная блокировка). Начисление абонементной платы производится до конца текущего календарного месяца. С начала нового календарного месяца до даты возобновления оказания Услуги абонементная плата не начисляется. Доступ к услуге возобновляется после пополнения лицевого счета Абонента до образования положительного баланса счета.<br>
+                                    9.13.7. Срок нахождения Услуги в принудительной блокировке не должен превышать 60 дней. По истечению указанного периода времени Оператор производит расторжение Приложения об оказании Услуги в одностороннем порядке. Абонентский номер блокируется на период 180 дней, после чего может быть предоставлен в пользование другому Абоненту. В течение 180 дней Абонент вправе обратиться к Оператору за заключением нового Приложения об оказании Услуги с использованием абонентского номера, выделенного по ранее заключенному Договору.<br>
+                                    9.14. Особенности начислений при использовании кредитной формы оплаты<br>
+                                    9.14.1. Начисление абонементной платы, в том числе за дополнительные услуги, производится ежедневно равными долями в течение периода оказания Услуг. Сумма, подлежащая ежедневному начислению, рассчитывается исходя из тарифа, разделенного на количество дней в текущем месяце.<br>
+                                    9.14.2. Начисление платы за сохранение номера, производится разово в биллинговой системе оператора, если в предыдущем месяце на учетной записи Абонента не было зарегистрировано никаких платных услуг. Исключение составляет месяц подключения: если в месяц подключения на учетной записи Абонента не было зарегистрировано никаких платных услуг, плата за сохранение номера не начисляется.<br>
+                                    9.14.3. При непогашении суммы выставленного счета в сроки, определенные заключенным Приложением об оказании Услуги, Оператор блокирует только исходящую связь. Начисление абонементной платы производится до конца текущего календарного месяца. С начала нового календарного месяца до даты возобновления оказания Услуги абонементная плата не начисляется (при этом входящая связь доступна, в т.ч. при установлении соединений за пределами Республики Беларусь).<br>
+                                    9.14.4. Срок нахождения Услуги в блокировке по причине неоплаты не должен превышать 60 дней. По истечению указанного периода времени Оператор производит расторжение Приложения об оказании Услуги в одностороннем порядке. Абонентский номер блокируется на период 180 дней, после чего может быть предоставлен в пользование другому Абоненту. В течение 180 дней Абонент вправе обратиться к Оператору за заключением нового Приложения об оказании Услуги с использованием ранее выделенного абонентского номера.<br>
+                                    9.14.5. Доступ к услугам исходящей связи прекращается при не оплате выставленного счета в сроки, определенные условиями Приложения об оказании Услуги.<br>
+                                    9.14.6. Абонент не освобождается от абонементной платы на период временного прекращения доступа к Услуге по причине неоплаты выставленного счета (финансовая блокировка). С начала нового календарного месяца до даты включения абонементная плата не начисляется. Доступ к услуге возобновляется после полного погашения образовавшейся задолженности.<br>
+                                    9.15. Особенности начислений для тарифного плана с включёнными объёмами телефонного трафика<br>
+                                    9.15.1. Учет объема телефонного трафика, включенного в тарифный план, производится за период с первого по последнее число календарного месяца.<br>
+                                    9.15.2. Если оказание Услуги начато не с первого числа календарного месяца, весь объем трафика, предусмотренный тарифным планом, предоставляется абоненту с момента активации тарифного плана (подключения) до окончания календарного месяца.<br>
+                                    9.15.3. Неиспользованный в календарном месяце объем включенного трафика не суммируется и не переносится на следующий месяц.<br>
+                                    9.15.4. Весь объем телефонного трафика, превысивший объем, включенный в тарифный план, тарифицируется согласно действующим тарифам.<br>
+                                    9.15.5. Информация об объеме израсходованного Абонентом трафика в текущем календарном месяце доступна через «Кабинет пользователя» по адресу: https://issa.beltelecom.by в разделе Статистика/Счетчики абонента.</p>
+
+                                    <p><h5>10. ПРЕДОСТАВЛЕНИЕ ЛИЧНЫХ ДАННЫХ</h5><br>
+                                    10.15. Оператор вправе собирать и обрабатывать личную информацию Абонента, которая, среди прочего, может включать следующие данные:<br>
+                                    - идентификационная информация (ник, имя и фамилия, адрес, абонентский номер, адрес электронной почты и т. п.);<br>
+                                    - личные данные из Анкеты Абонента (возраст, пол, страна проживания и другая информация, которую Абонент по своему усмотрению указывает при регистрации в Услуге);<br>
+                                    - список контактов Абонента;<br>
+                                    - данные о трафике, обрабатываемые с целью осуществления связи или выставления счетов на оплату Услуги, включая данные о продолжительности разговора и номерах вызывающей и вызываемой сторон.<br>
+                                    10.16. Вся абонентская информация предоставляется Абонентом добровольно. Изменяя настройки отображения данных Анкеты, Абонент может выбрать, какая информация будет видна другим Абонентам Услуги. Абонент может изменять информацию в Анкете Приложения Максифон.<br>
+                                    10.17. Оператор обязуется не предоставлять в пользование третьим лицам и никаким иным образом не передавать личные данные Абонента и/или данные о трафике или содержании разговоров Абонента, если только передача личных данных Абонента третьим лицам не противоречит действующему законодательству Республики Беларусь или не вызвана требованиями уполномоченных подразделений.</p>
+
+                                    <p><h5>11. ТЕХНИЧЕСКАЯ ПОДДЕРЖКА УСЛУГИ</h5><br>
+                                    11.1. Оператор планирует и производит периодическое тестирование, наладку и ремонт оборудования, необходимого для обеспечения качественного предоставления Услуги.<br>
+                                    11.2. Служба технической поддержки Абонентов Услуги функционирует на базе служб телефонной связи Оператора.<br>
+                                    11.3. Обращение к службе технической поддержки Абонентов Услуги осуществляется по телефонному номеру 123.</p>
+
+                                    <p><h5>12. ПРЕДЪЯВЛЕНИЕ РЕКЛАМАЦИЙ, РАЗРЕШЕНИЕ РАЗНОГЛАСИЙ</h5><br>
+                                    12.15. При неисполнении или ненадлежащем исполнении Оператором условий, оговоренных в Договоре и Приложении об оказании Услуги, Абонент вправе предъявить рекламацию Оператору.<br>
+                                    12.16. Порядок предъявления и рассмотрения рекламации установлен в Договоре и Приложении об оказании Услуги.<br>
+                                    12.17. Разногласия, связанные с Договором, которые не могут быть разрешены сторонами путем переговоров, а также в порядке рассмотрения претензий, рассматриваются в судебном порядке в соответствии с законодательством Республики Беларусь.<br>
+                                    13. ВНЕСЕНИЕ ИЗМЕНЕНИЙ И ВВЕДЕНИЕ В ДЕЙСТВИЕ ПОРЯДКА<br>
+                                    13.15. Настоящий Порядок устанавливается Оператором самостоятельно.<br>
+                                    13.16. Оператор вправе по своему усмотрению вносить изменения (дополнения) в настоящий Порядок, публикуя уведомления о внесенных изменениях/дополнениях на web-сайте Оператора http://www.beltelecom.by.<br>
+                                    13.17. Настоящий Порядок вступает в силу с момента его утверждения Оператором.</p>
+                                </dl>
+                            </p>
+                            <button type="button" class="btn btn-danger white" data-dismiss="modal"><i class="fa fa-times"></i> Закрыть</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!-- Help Modal 3 -->
+    <div class="portfolio-modal modal fade" id="helpModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>FAQ</h2>
+                            <p class="item-intro text-muted">Часто задаваемые вопросы</p>
+                            <div class="col-md-12">
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-square fa-stack-2x text-primary orange"></i>
+                                    <i class="fa fa-question fa-stack-1x white"></i>
+                                </span>
+                            </div>
+                            <p>
+                                <dl class="text-left">
+                                    <dt>Возможен ли доступ к услуге Максифон без доступа в интернет?</dt>
+                                    <dd>Нет, без доступа в интернет вы не сможете воспользоваться услугой Максифон.</dd>
+                                    <hr>
+                                    <dt>Как позвонить с обычного телефона (фиксированного или мобильного) на номер Максифон и сколько это стоит?</dt>
+                                    <dd>Чтобы позвонить с фиксированного или мобильного телефона на номер Максифон, необходимо набрать номер Максифон в междугородном или международном формате, т.е.:
+                                    8 024 9xx xx xx или +375 24 9xx xx xx.
+                                    Оплата за звонок на Максифон с фиксированного телефона будет взиматься в соответствии с тарифами на услуги электросвязи по тарифу на предоставление междугородного соединения. Оплата с мобильного телефона будет взиматься в соответствии со стоимостью выхода на фиксированную сеть вашего тарифного плана мобильного оператора.</dd>
+                                    <hr>
+                                    <dt>Что делать, если услуга не работает?</dt>
+                                    <dd>В первую очередь необходимо убедиться, что на вашем лицевом счете имеются денежные средства и что ваше устройство подключено к сети интернет. Проверить баланс лицевого счета вы можете в кабинете пользователя https://issa.beltelecom.by/cgi-bin/cgi.exe?function=is_newlog.
+                                    Если задолженности нет и доступ к сети интернет имеется, обратитесь в службу технической поддержки по тел. 123.</dd>
+                                    <hr>
+                                    <dt>Включает ли  оплата услуги Максифон  оплату услуг доступа к сети интернет?</dt>
+                                   <dd>Нет, доступ к сети интернет тарифицируется отдельно, в соответствии с договором на услуги интернет и выбранным тарифным планом.</dd>
+                                    <hr>
+                                    <dt>При какой минимальной скорости доступа к сети интернет будет работать услуга Максифон?</dt>
+                                    <dd>Требуемая скорость доступа к сети интернет зависит от того, какими именно опциями программы вы пользуетесь. К примеру, для передачи голосового трафика достаточно 100 Кбит/с, для передачи видеоизображения  требуется не менее 484 Кбит/с.</dd>
+                                    <hr>
+                                    <dt>Какого размера файлы можно передавать через услугу Максифон?</dt>
+                                    <dd>Максимальный объем передаваемого файла составляет 20 Мбайт.</dd>
+                                    <hr>
+                                    <dt>Какого размера тестовые сообщения можно передавать с помощью услуги Максифон?</dt>
+                                    <dd>Количество символов в текстовом сообщении не может превышать  512 символов.</dd>
+                                    <hr>
+                                    <dt>Что делать, если мобильное устройство, на котором установлена услуга Максифон, украли?</dt>
+                                    <dd>В первую очередь необходимо обратиться в службу поддержки по тел. 123, сообщить специалистам службы ваш номер договора и уведомить их о том, что случилось. Специалисты службы поддержки заблокируют ваш номер Максифон.
+                                    После этого в максимально короткие сроки Вам необходимо обратиться в ваш сервисный центр и написать заявление на выделение новых реквизитов.</dd>
+                                </dl>
+                            </p>
+                            <button type="button" class="btn btn-danger white" data-dismiss="modal"><i class="fa fa-times"></i> Закрыть</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src={% static "js/jquery.js" %}></script>
+    <script src="jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src={% static "js/bootstrap.min.js" %}></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src={% static "js/classie.js" %}></script>
+    <script src={% static "js/cbpAnimatedHeader.js" %}></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src={% static "js/jqBootstrapValidation.js" %}></script>
+    <script src={% static "js/contact_me.js" %}></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src={% static "js/maxiphone.js" %}></script>
+    <script src={% static "js/viewportchecker.js" %}></script>
+
+    <script>
+       $(document).ready(function() {
+        $('img.animated').hover(
+         function() {
+          $(this).addClass('pulse');
+         },
+         function() {
+          $(this).removeClass('pulse');
+         }
+        )})
+    </script>
+    <script>
+       $(document).ready(function() {
+        $('img.imflip').hover(
+         function() {
+          $(this).addClass('pulse');
+         },
+         function() {
+          $(this).removeClass('pulse');
+         }
+        )})
+    </script>
+
+    <!-- Right click disable -->
+    <script>
+        $(document).ready(function(){
+            $(document).bind("contextmenu",function(e){
+                return false;
+            });
+        });
+    </script>
+
+    <!-- Tooltips -->
+    <script>
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
+    </script>
+
+    <!-- Preloader -->
+    <script>
+        $(window).on('load', function () {
+         var $preloader = $('#page-preloader'),
+         $spinner = $preloader.find('.spinner');
+         $spinner.fadeOut();
+         $preloader.delay(250).fadeOut('slow');
+        });
+    </script>
+
+</body>
+
+</html>

@@ -141,66 +141,6 @@
     <!-- Services Section -->
     <section id="service">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Преимущества</h2>
-                    <h3 class="section-subheading text-muted">оцените все преимущества по достоинству</h3>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div id="prbox" class=" prbox col-md-3 grow">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary yellow"></i>
-                        <i class="fa fa-phone fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading bord3">Реальный телефонный номер</h4>
-                    <p class="text-muted">Вы получите реальный телефонный номер из номерной емкости телефонной сети <a href="http://beltelecom.by"><em>БЕЛТЕЛЕКОМ</em></a> в формате <br> +375 24 9хх хх хх</p>
-                </div>
-                <div class="col-md-3 grow">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary green"></i>
-                        <i class="fa fa-mobile-phone fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading bord3">Полный спектр услуг<br>связи</h4>
-                    <p class="text-muted">Осуществляйте голосовые вызовы</br> с мобильного или ПК,</br> совершайте видеозвонки, </br> обмениваетесь файлами</p>
-                </div>
-                <div class="col-md-3 grow">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary blue"></i>
-                        <i class="fa fa-usd fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading bord3">Экономия Ваших финансовых средств</h4>
-                    <p class="text-muted">Вы будете экономить с выгодными тарифами в роуминге и при общении с абонентами других сетей</p>
-                </div>
-                <div class="col-md-3 grow">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary orange"></i>
-                        <i class="fa fa-refresh fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading bord3">Анлим внутри<br>сети МАКСИФОН</h4>
-                    <p class="text-muted">При общении внутри
-                    <br> сети Максифон с другими абонентами
-                    <br> плата не взимается</p>
-                </div>
-            </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             <div class="container">
                 {% for benefit in benefits %}
                     <div class="col-md-3 grow">
@@ -208,7 +148,7 @@
                             <i class="fa fa-circle fa-stack-2x text-primary orange"></i>
                             <i class="fa fa-stack-1x fa-inverse">
                                 {% if benefit.icon %}
-                                    {{ benefit. }}
+                                    {{ benefit.icon }}
                                 {% endif %}
                             </i>
                         </span>
@@ -221,27 +161,14 @@
                     </div>
                 {% endfor %}
             </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             <div class="row mttt">
                 <div class="col-md-7">
-                   <div class="col-md-11 well well-border">
-                       <h3 class="large white blue push-right">Позвольте себе больше</h3>
-                       <p class="text-muted blue">Обеспечьте себе свободу общения, не задумываясь о стоимости звонков с мобильных телефонов на фиксированную сеть.</p>
-                   </div>
+                    <div class="col-md-11 well well-border">
+                        {% for benefit_add in benefit_adds %}
+                            <h3 class="large white blue push-right">{{ benefit_add.title }}</h3>
+                            <p class="text-muted blue">{{ benefit_add.text}}</p>
+                        {% endfor %}
+                    </div>
                 </div>
                 <div class="col-md-5">
                     <div class="row">
